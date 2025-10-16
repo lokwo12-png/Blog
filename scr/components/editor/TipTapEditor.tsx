@@ -13,7 +13,6 @@ export default function TipTapEditor({ onChange }: { onChange: (value: string) =
   });
 
   return (
-    
     <div className="border border-gray-300 rounded-lg p-4 bg-white">
       <EditorContent editor={editor} />
     </div>
